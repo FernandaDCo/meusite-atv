@@ -7,12 +7,12 @@
     body {
       font-family: Arial, sans-serif;
       line-height: 1.6;
-      background: #f9f9f9;
-      color: #333;
+      background: #16161f;
+      color: #ffffff;
     }
  
     header {
-      background: #2c3e50;
+      background: #250000;
       color: white;
       padding: 20px;
     }
@@ -52,14 +52,18 @@
  
     .hero {
       padding: 80px 0;
-      background: #3498db;
+      background: linear-gradient(to bottom right, #720c0c, #01000c);
       color: white;
       text-align: center;
     }
  
     .hero h1 {
       font-size: 48px;
+      font-family: Agu Display;
       margin-bottom: 20px;
+      color: #ff8a8a;
+      text-shadow: 0 0 15px #fc1515 ;
+     
     }
  
     .hero p {
@@ -69,8 +73,8 @@
  
     .hero button {
       padding: 12px 24px;
-      background: white;
-      color: #3498db;
+      background: rgb(233, 126, 126);
+      color: #000000;
       border: none;
       cursor: pointer;
       font-weight: bold;
@@ -89,14 +93,28 @@
  
     .grid-item {
       flex: 1 1 250px;
-      background: white;
+      background: rgb(34, 29, 78);
       padding: 20px;
       border-radius: 8px;
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
+    .container h2{
+      color: #6557ff;
+      text-decoration: underline;
+      text-decoration-color: #623ca7;
+      text-decoration-style: solid;
+    }
+
+    .grid-item h3{
+      color: #65a3eb;
+      text-decoration: underline;
+      text-decoration-color: #486ee9;
+      text-decoration-style: solid;
+    }
+
  
     footer {
-      background: #2c3e50;
+      background: #182b3d;
       color: white;
       text-align: center;
       padding: 20px;
